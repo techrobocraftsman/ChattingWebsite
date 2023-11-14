@@ -1,0 +1,384 @@
+body {
+	margin: 0;
+	background: rgba(162, 155, 254,.5);
+	font-family: arial;
+	text-align: center;
+}
+html {
+	position: relative;
+}
+.warning{
+	color: red;
+	font-style: italic;
+}
+.success{
+	color: green;
+	font-style: italic;
+}
+
+.warning, .success {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.box{
+	width: 90%;
+	margin: 10% auto;
+	height: auto;
+	overflow: hidden;
+}
+.box.login, .box.register{
+	width: 50%;
+}
+.login button i {
+	margin: 0 5px;
+}
+.login button{
+	font-weight: bold;
+	font-size: 20px;
+}
+.box a{
+	color: purple;
+}
+
+.box .my-inputs{
+	display: block;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.box h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.chat {
+	margin-top: 10px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 8px;
+}
+h2{
+	margin: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.chat-area {
+	width: 58%;
+	overflow: hidden;
+
+}
+.squarebox {
+	background: white;
+	border-radius: 10px;
+	text-align: left;
+}
+.squarebox .username {
+	color: #81ecec;
+}
+.squarebox .time{
+	color :white;
+	font-size: 12px;
+	font-family: tahoma;
+
+}
+.messages p {
+	overflow: hidden;
+}
+.squarebox .pic img{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+
+/* style.css | http://localhost/chat/style.css */
+
+.chatform {
+  /* margin-top: 10px; */
+  width: 98%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.squarebox p {
+	color: white;
+	margin: 5px;
+	padding: 3px 10px;
+	border-radius: 10px;
+	word-wrap: break-word;
+	width: 60%;
+}
+p.first_person {
+	text-align: left;
+	background-color: #718093;
+}
+p.first_person .time {
+	float: right;
+}
+p.second_person {
+	text-align: right;
+	background-color: #9c88ff;
+	margin-left: 38%;
+}
+p.second_person .time {
+	float: left;
+}
+
+.friend-list {
+	width: 40%;
+	float: left;
+	background: #70a1ff;
+	margin: 0 2%;
+	margin-left: 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+	overflow-y: scroll;
+}
+
+.inbox-info .friend-list {
+	
+}
+
+.friends {
+	background: #c8d6e5;
+	width: 90%;
+	margin: 10px 5%;
+	padding: 5px;
+	color: #000;
+	border: 1px solid gray;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: left;
+}
+.inbox-info .friends {
+	background: #81ecec;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15px;
+}
+.friends .pic,.user-info .pic, .btn .pic {
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+}
+.pic img {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.btn img {
+	height: 25px;
+	width: 25px;
+}
+.btn .c{
+	float: left;
+	padding: 0 5px;
+}
+.btn .c.username {
+	font-weight: bold;
+}
+
+/* style.css | http://localhost/chat/style.css */
+
+.input-group button.btn {
+   padding-left: 5px; 
+   padding-right: 5px; 
+}
+
+.user-info{
+	margin: 3% auto;
+	overflow: hidden;
+	text-align: left;
+	font-weight: bold;
+	padding: 10px 20px;
+	background: #7bed9f;
+	border-radius: 10px;
+	border: 1px solid gray;
+ 	font-size: 28px;
+}
+.user-info .choice{
+  	float: left;
+}
+.user-info .email{
+	font-size: 15px;
+	float: left;
+	margin: 10px;
+}
+
+.email{
+	color: gray;
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.friends .info {
+	transform: translateY(35%);
+}
+.friend-list .friends:hover {
+	background: #7bed9f;
+	cursor: pointer;
+}
+.friends.focused {
+	background: #81ecec;
+}
+
+.btn.logout {
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: bold;
+	float: right;
+}
+
+
+.scrollable {
+	height: 500px;
+	overflow-y: scroll; 
+}
+
+.input-group button {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.input-group button i {
+	margin-right: 6px;
+}
+
+.btn.logout {
+  	font-size: 22px;
+}
+.user-info .pic, .user-info img {
+	height: 50px;
+	width: 50px;
+}
+.friend-list .choice, .user-info .choice, .inbox-info .choice {
+	text-transform: capitalize;
+}
+
+#focused{
+	box-shadow: 2px 2px 5px black;
+}
+#blured{
+	box-shadow: 2px 2px 5px green;
+}
+#alert{
+	box-shadow: 2px 2px 5px red;
+}
+
+
+
+
+
+@media all and (max-width: 585px){
+
+.squarebox p {
+	width: 75%;
+}
+p.second_person {
+	margin-left: 24%;
+}
+	
+/* style.css | http://localhost/chat/style.css */
+
+	.chat-area {
+	  /* width: 58%; */
+	  width: 100%;
+	  padding: 5px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    }
+
+/* style.css | http://localhost/chat/style.css */
+
+
+
+
+
+	.friend-list {
+	   float: none; 
+	  margin: 0 auto;
+	}
+/* style.css | http://jamiul.onlinebatch.xyz/chatapp/style.css */
+
+.friends .info {
+  float: left;
+}
+.user-info .email {
+  font-size: 12px; 
+  position: absolute;
+  top: 23px;
+  left: 85px;
+}
+.email {
+  float: right;
+}
+	.user-info .info {
+	  font-weight: normal;
+    font-size: 18px;
+	  margin: auto;
+	  
+	}
+	.user-info .choice {
+	   transform: translate(0); 
+	    float: left;
+	}
+	.user-info .pic, .user-info img {
+        height: 40px;
+        width: 40px;
+    }
+.friend-list {
+   width: 100%; 
+}
+.btn.logout {
+    padding: 4px;
+    font-size: 18px;
+}
+.btn .c {
+   padding: 0; 
+}
+.chatform .c.username, .chatform .c.img {
+	display: none;
+}
+
+/* style.css | http://jamiul.onlinebatch.xyz/chatapp/style.css */
+
+.user-info {
+  /* margin: 3% auto; */
+  margin: 2px auto;
+  padding: 5px 10px;
+}
+
+.friends {
+  /* margin: 10px 5%; */
+  width: 100%;
+  margin: 3px 0;
+}
+  .chat-area {
+    margin-top: 4px;
+  }
+.friend-list {
+    background: transparent;
+    border: transparent;
+}
+
+.chatform {
+   width: 100%; 
+   margin: 0; 
+  padding: 0;
+}
+
+.mb-2 {
+   margin-bottom: 0;
+}
+
+
+
+
+}

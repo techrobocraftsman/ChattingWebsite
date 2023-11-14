@@ -1,0 +1,17 @@
+<?php
+
+$user_table = 'jonogon';
+
+$host = 'localhost';
+$username = 'onlinebatch_zayed';
+$password = 'ily6tgky3tf1';
+$database = 'onlinebatch_chatting';
+
+
+$connection = new mysqli($host , $username , $password , $database);
+
+if ($connection->connect_error) {
+  die("Connection failed: " . $connection->connect_error);
+}
+
+?>
